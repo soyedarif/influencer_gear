@@ -17,10 +17,10 @@ body {
 }
 
 /* header style  */
-header {
+/* header {
     height: 100vh;
 
-}
+} */
 
 .navigation {
     display: flex;
@@ -95,12 +95,15 @@ header {
     display: flex;
     margin: 0 auto;
     justify-content: center;
+    margin-bottom: 100px;
     padding: 40px;
     gap: 60px;
     border-top: 2px solid rgba(0, 0, 0, 0.178);
     border-bottom: 2px solid rgba(0, 0, 0, 0.178);
 }
-
+.brands img:hover{
+    transform: scale(01.2) rotate(-5deg);
+}
 /* Products style  */
 .products-title {
     text-align: center;
@@ -230,4 +233,8 @@ footer{
     border-radius: 50%;
     background-color: #6C6C6C;
     margin-right: 16px;
+}
+/* media queries  */
+@media screen and (max-width:576px) {
+    
 }
