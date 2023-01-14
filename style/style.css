@@ -20,11 +20,6 @@ body {
     margin: 0 auto;
 }
 
-/* header style  */
-/* header {
-    height: 100vh;
-
-} */
 
 .navigation {
     display: flex;
@@ -94,6 +89,9 @@ body {
     padding: 3rem;
     background-repeat: no-repeat;
 
+}
+.hero-img img{
+    transform: scale(1.09);
 }
 
 /* brands design  */
@@ -202,6 +200,8 @@ margin-bottom: 1.6rem;
     color: #6C6C6C;
     font-weight: 700;
     margin-bottom: 1.6rem;
+    font-size: 1.6rem;
+    letter-spacing: 0.8px;
 }
 .btn-feature {
     background: #E02C6D;
